@@ -1,0 +1,29 @@
+{
+	"compileOnSave": true,
+	"compilerOptions": {
+    "jsx": "react",
+		"allowSyntheticDefaultImports": true,
+		"declaration": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"incremental": true,
+		"lib": [
+			"esnext",
+			"esnext.array",
+			"esnext.asynciterable",
+			"esnext.intl",
+			"esnext.symbol"
+		],
+		"module": "commonjs",
+		"noUnusedLocals": true,
+		//"outDir": "./dist",
+		"pretty": true,
+		"removeComments": true,
+		"resolveJsonModule": true,
+		"sourceMap": true,
+		"strict": true,
+		"noImplicitAny": false,
+		"target": "esnext",
+		"types": ["node"]
+	}
+}

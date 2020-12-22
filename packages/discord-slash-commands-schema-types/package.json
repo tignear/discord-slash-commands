@@ -1,0 +1,32 @@
+{
+  "name": "@tignear/discord-slash-commands-schema-types",
+  "version": "1.0.0",
+  "description": "discord slash command schema type defs",
+  "author": "tignear <tignear+m@gmail.com>",
+  "types": "lib/main.d.ts",
+  "homepage": "",
+  "license": "MIT",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "lint": "eslint --ext ts src --fix",
+    "test:lint": "eslint --ext ts src",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript":"^4.1.3",
+    "@typescript-eslint/eslint-plugin": "^3.4.0",
+    "@typescript-eslint/parser": "^3.4.0",
+    "eslint": "^7.3.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
+  }
+}
